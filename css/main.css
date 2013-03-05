@@ -1,0 +1,70 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+nav {
+	position: relative;
+	float:left;
+	min-width:600px;
+	margin-top:30px;
+	margin-left:30px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+nav ul li {
+	position: relative;
+}
+
+nav a {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0 0px;
+	padding: 5px 1%;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+}
+nav a:active, nav a:focus {
+	outline: none;
+}
+nav a:hover, nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+
+	
+.nav-arrow {
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 31px;
+	z-index: 99999999;
+}
+
+
+
+/* ========================
+ INTERMEDIATE: IE Fixes
+ ======================== */
+
+nav ul li {
+	display: inline;
+}
+
+.oldie nav a {
+	margin: 0 0.7%;
+}
+
+
