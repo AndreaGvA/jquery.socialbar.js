@@ -1,3 +1,4 @@
+<? session_start(); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -15,13 +16,13 @@
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/socialbar.css">
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 		<!-- Add your site or application content here -->
 		<div id="social_check"><?=$_SESSION['social_bar']?></div>
-
+		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
 			window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
@@ -31,4 +32,4 @@
 		<script src="js/main.js"></script>
 
 	</body>
-</html>
+</html> 
