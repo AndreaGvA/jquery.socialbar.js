@@ -1,0 +1,25 @@
+#bar{ position:fixed; bottom:0px; left:0px; width:100%; height:45px; z-index:999999px;  background:#464440 url(../img/foot.png) repeat-y center; display:block;}
+#bar #inner-bar{ width:940px; padding-left:20px; padding-right:20px; margin:0 auto; height:45px; position:relative;}
+#bar #inner-bar span{ font-size:15px; float:left; font-family:'OpenSansLight', Arial, sans-serif; font-weight:bold; line-height:45px; color:#FFF;}
+#bar #inner-bar img{ margin:4px; margin-top:9px; float:left;}
+#bar #inner-bar #inner-bar-close{ position:absolute; top:5px; right:15px; margin:0px; cursor:pointer;}
+#bar-closed{ position:fixed; background-color:transparent; bottom:0px; left:0px; width:100%; height:1px; z-index:999999px;  display:block;}
+#bar-closed #inner-bar-b{ width:940px; padding-left:20px; background-color:transparent; padding-right:20px; margin:0 auto; height:1px; position:relative;}
+#bar-closed #inner-bar-b #inner-bar-open{ position:absolute; bottom:0px; right:15px; margin:0px; cursor:pointer;}
+.input_nl{ margin-left:5px; float:left; margin-top:10px; width:180px; height:25px; border:none; color:#999; font-style:italic; padding-left:5px; padding-right:5px; line-height:25px;}
+.red_button_nl{ width:90px; height:25px; float:left; margin-top:10px; line-height:25px; -webkit-border-radius: 5px; text-shadow: 0px 2px 2px #333;
+
+-moz-border-radius: 5px; font-size:14px; border:none; color:#fff; text-align:center;
+border-radius: 5px; behavior: url(PIE.htc); background-color:#dd2c2c; margin-left:5px; cursor:pointer;}
+#social_check{ display:none;}
+
+
+.facebook,.google,.nl,.rss,.twitter_icon,.social_close,.social_open{display: inline-block;background-repeat: no-repeat;background-image: url('../img/social_bar/social_bar.png'); float:left; text-indent:-99999999px;}
+.facebook{background-position:0px 0px;width:27px;height:27px;  margin:4px; margin-top:9px;}
+.google{background-position:0px -27px;width:27px;height:27px;  margin:4px; margin-top:9px;}
+.nl{background-position:-27px 0px;width:27px;height:27px; margin:4px; margin-top:9px;}
+.rss{background-position:-27px -27px;width:27px;height:27px; margin:4px; margin-top:9px;}
+.twitter_icon{background-position:-54px 0px;width:27px;height:27px;  margin:4px; margin-top:9px;}
+.social_close{background-position:-81px 0px;width:39px;height:39px;}
+.social_open{background-position:-120px 0px;width:39px;height:39px;}
+/* End Sprite Master CSS */ 
