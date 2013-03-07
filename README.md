@@ -55,4 +55,7 @@ I css
 ```
 #social_check{ display:none;}
 ```
+#### Licenze
+
+Il software è rilasciato con le licenze open source [GPL](http://www.gnu.org/licenses/gpl-2.0.txt) e [LGPL](http://www.gnu.org/licenses/lgpl-3.0.txt)
 
