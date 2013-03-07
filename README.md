@@ -1,4 +1,4 @@
 # jQuery.socialbar.js
 =====================
-Un metodo jQuery per una barra Social
+**Un metodo jQuery per una barra Social**
 
