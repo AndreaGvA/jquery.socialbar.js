@@ -36,3 +36,24 @@ $(document).ready(function(){
 	);
 });
 ```
+
+Per abilitare la memoria di scelta durante la sessione (se tenere aperta o chiusa la barra) bisogna aprire la sessione in php ed inserire un div nascosto per passare il parametro allo script
+
+Per far partire la sessione:
+```
+<? session_start(); ?>
+<!DOCTYPE html>
+...
+```
+Il div con i parametri
+```
+<body>
+	<div id="social_check"><?=$_SESSION['social_bar']?></div>
+	...
+```
+I css
+```
+#social_check{ display:none;}
+```
+
+```
